@@ -9,6 +9,14 @@ uv tool run black main.py
 
 uvx black main.py source 
 
+Trocar a versao do Pyhton 
+ 
+pyproject.toml  alterar requires-python = ">=3.12" 
+depois
+
+uv sync     
+uv pip install -e . 
+
 
 .venv/bin/activate  # Ativa o ambiente (Linux/macOS)
 .venv\Scripts\activate  No Windows 
