@@ -1,3 +1,4 @@
+# Django + Uvicorn + ASGI
 
 
 uv init deepstart
@@ -30,7 +31,9 @@ python manage.py createsuperuser
 OpenManus
 https://apidog.com/blog/openmanus-open-source-manus-ai-alternative/?utm_source=google_dsa&utm_medium=g&utm_campaign=22062217351&utm_content=169453484141&utm_term=&gad_source=1&gad_campaignid=22062217351&gbraid=0AAAAA-gKXrB0dplfPhwCEmKKniVSIUdfX&gclid=Cj0KCQjwt8zABhDKARIsAHXuD7ZmxsFVheyNz2Yfx4NGwjT8-PniE6NTnR7hK9Lh7iFxo-el-MRgUB8aAsk_EALw_wcB
 
-
 git clone https://github.com/mannaandpoem/OpenManus.git
 
 
+# Deploy
+
+ scp -r C:\Users\Liandro\Documents\Github\deepstart lbulegon@192.168.0.69:/home/ubuntu/
